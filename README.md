@@ -67,7 +67,7 @@ node index.js
 Now you're ready to start adding tasks!
 
 ## Group Member Roles
-Sudha Gattu ([@sudham123](https://github.com/sudham123)) : _Front-end and database developer / unit tester_ <br>
-Leah Ludwikowski ([@leahlud](https://github.com/leahlud)) : _Front-end and database developer_ <br>
-Armin Rafieyan ([@ArminRaf](https://github.com/ArminRaf)): _Back-end and database developer_ <br>
-Nithin Parthasarathy ([@nithinparthas](https://github.com/nithinparthas)) : _Back-end and database developer / unit tester_
+Sudha Gattu ([@sudham123](https://github.com/sudham123)) : _Front-end / database developer and unit tester_ <br>
+Leah Ludwikowski ([@leahlud](https://github.com/leahlud)) : _Front-end / back-end / database developer_ <br>
+Armin Rafieyan ([@ArminRaf](https://github.com/ArminRaf)): _Back-end / database developer_ <br>
+Nithin Parthasarathy ([@nithinparthas](https://github.com/nithinparthas)) : _Back-end developer and unit tester_
