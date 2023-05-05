@@ -1,0 +1,230 @@
+.planner-parent {
+    height: 100vh;
+    width: 100vw;
+}
+
+.planner-top-bar {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #524852;
+}
+
+.todo-title-text {
+    color: #efebf0;
+    position: fixed;
+    align-self: center;
+    font-family: Tahoma, sans-serif;
+    font-size: 2.2em;
+}
+
+.logout-button {
+    width: 7%;
+    position: fixed;
+    left: 2%;
+    border-radius: 1.5em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    background-image: linear-gradient(to right, #9f95e6 , #b2b6e3);
+    color: white;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+    cursor: pointer;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.logout-button:hover {
+    transform: scale(1.1);
+}
+
+.new-task-button {
+    width: 10%;
+    position: fixed;
+    left: 88%;
+    border-radius: 1.5em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    background-image: linear-gradient(to right, #db88dc , #cea7e8);
+    color: white;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+    cursor: pointer;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.new-task-button:hover {
+    transform: scale(1.05);
+}
+
+.planner-task-page {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dccfe6;
+}
+
+.tasks-frame {
+    height: 80%;
+    width: 60%;
+    display: flex;
+    border-radius: 2em;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c7b9d1;
+}
+
+.new-task-popup {
+    position: absolute;
+    height: 25em;
+    width: 22em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1em;
+    background-color: #fefbff;
+    color: white;
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+.close-task-button {
+    width: fit-content;
+    position: fixed;
+    top: 4%;
+    left: 80%;
+    color: #9e9b9e;
+    border-radius: 1.5em;
+    font-family: Tahoma, sans-serif;
+    font-size: 1.0em;
+    transition: 0.5s;
+    background-color: #eeebee;
+    padding-top: 0.2em;
+    padding-bottom: 0.3em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.close-task-button:hover {
+    transform: scale(1.08);
+}
+
+.task-popup-title {
+    color: #524852;
+    margin-bottom: 1.5em;
+    font-family: Tahoma, sans-serif;
+    font-size: 1.5em;
+}
+
+.add-task-button {
+    width: 24%;
+    margin-top: 2em;
+    border-radius: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-image: linear-gradient(to right, #db88dc , #cea7e8);
+    color: white;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+    cursor: pointer;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.add-task-button:hover {
+    transform: scale(1.1);
+}
+
+.task-item-frame {
+    width: 53em;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 1.2em;
+    padding-top: 1.0em;
+    padding-bottom: 1.0em;
+    margin-top: 1.0em;
+    margin-bottom: 1.0em;
+    background-color: #efebf0;
+}
+
+.flex-frame {
+    width: 53em;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 1.2em;
+    background-color: #efebf0;
+}
+
+.checkbox-item {
+    accent-color: #ac83c9;
+    margin-left: 3%;
+    margin-right: 0%;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: #fff;
+    border: 2px #ddd solid;
+}
+
+
+.task-description-frame {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 1.2em;
+    padding-top: 0.1em;
+    background-color: #efebf0;
+}
+
+.task-description-text {
+    width: fit-content;
+    margin-top: 0.1em;
+    margin-left: 1.25em;
+    justify-content: space-between;
+    font-family: Tahoma, sans-serif;
+    font-size: 1.1em;
+    color: #524852;
+}
+
+.deadline-description-text {
+    width: fit-content;
+    margin-left: 1.25em;
+    justify-content: space-between;
+    font-family: Tahoma, sans-serif;
+    font-size: 0.85em;
+    color: #7a727a;
+}
+
+.delete-task-button {
+    margin-right: 3%;
+    height: fit-content;
+    align-self: center;
+    width: 8.5%;
+    color: #ffffff;
+    border-radius: 1.5em;
+    font-family: Tahoma, sans-serif;
+    font-size: 0.95em;
+    transition: 0.5s;
+    background-color: #cea7e8;
+    padding-top: 0.3em;
+    padding-bottom: 0.4em;
+    padding-left: 0.7em;
+    padding-right: 0.8em;
+}
+
+.delete-task-button:hover {
+    transform: scale(1.08);
+}
